@@ -43,6 +43,10 @@ GitHub Project Board anlegen: Spalten `Backlog / In Progress / Maintenance`, Iss
 - Was treibt den User gerade an / welche Lebensumstände haben Entscheidungen beeinflusst?
 - Warum wurde Priorität X so gesetzt?
 
+### Gegencheck
+
+- Durchgeführt: ja / nein — wenn ja, von welchem Agent, welche Befunde, wie behandelt?
+
 ### Nächster Schritt
 
 ...

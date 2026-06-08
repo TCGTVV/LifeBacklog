@@ -28,6 +28,16 @@ Anweisungen für AI-Agents, die am LifeBacklog arbeiten.
 - Neue Tickets immer in BACKLOG.md **und** setup-issues.sh eintragen
 - Nach Änderungen: committen und pushen
 
+## Gegencheck — Zweite Augen
+
+Der ausführende Agent ist immer parteiisch. Deshalb gilt für nicht-triviale Änderungen:
+
+- **Neue Tickets oder Priorisierungsänderungen:** Ein zweiter Agent prüft: Ist das MVP wirklich minimal? Hält der Abhängigkeitsgraph? Ist die Priorität im Verhältnis zu bestehenden Tickets konsistent? Passt der Anker zur Lebensrealität?
+- **Strukturelle Änderungen** (Operating Model, Konventionen, mehrere Tickets auf einmal): `/code-review high` auf den Diff — frische Augen, kein blinder Fleck durch Über-Vertrautheit.
+- **Triviale Änderungen** (Tippfehler, HANDOVER-Eintrag, einzelnes Feld korrigieren): kein Gegencheck nötig.
+- **Cross-Agent-Pattern:** Wer zuletzt implementiert hat, reviewt nicht selbst. Befunde werden im HANDOVER-Eintrag als eigene Sektion `### Gegencheck` dokumentiert.
+- **Befunde behandeln:** Sinnvolle Kritik direkt einarbeiten oder als neues Ticket ins Backlog aufnehmen. Nicht ungeprüft committen mit Verweis „später".
+
 ## Prüfen vor Abschluss
 
 - BACKLOG.md und setup-issues.sh sind konsistent (gleiche Tickets, gleiche Felder)

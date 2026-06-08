@@ -7,9 +7,6 @@
 
 ---
 
-Extra. wird sich morgen angeguckt. aus meinem SubTracked Projekt soll die art udn weise wie die agents arbeiten übernommen werden. HANDOVER.md, etc.
-
-
 ## ⚙️ Die Regeln (Definition of the System)
 
 | Konzept | Dev-Begriff | Bedeutung |

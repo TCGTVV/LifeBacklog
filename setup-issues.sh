@@ -25,6 +25,7 @@ mklabel "epic:ernaehrung"  "1D76DB" "Ernährung"
 mklabel "epic:input"       "1D76DB" "Lesen / Input"
 mklabel "epic:karriere"    "1D76DB" "Skill / Karriere"
 mklabel "epic:beziehungen" "1D76DB" "Beziehungen"
+mklabel "epic:gesundheit"  "1D76DB" "Gesundheit / Rehab"
 
 echo "🎫 Issues anlegen…"
 mkissue() {
@@ -148,5 +149,33 @@ mkissue "LIFE-7 · Sozial-Rhythmus" \
 ### Akzeptanzkriterien
 - [ ] Cadence im Kalender
 - [ ] 6 Wochen eingehalten'
+
+mkissue "LIFE-8 · Schulter-Rehab" \
+  "--label P1 --label epic:gesundheit" \
+'**Epic:** Recovery / Gesundheit · unbehandelte Schulterprobleme blockieren langfristig das Training und erhöhen das Verletzungsrisiko.
+
+- **Anker:** direkt nach LIFE-2 (Morgen-Anker) oder als eigenständiger Abend-Slot
+- **MVP / DoD:** Arzt/Physio aufsuchen + verschriebene Übungen 5×/Woche, 4 Wochen am Stück
+- **Increment:** eigenständige Routine ohne Physio-Erinnerung weiterführen; alle 4 Wochen reassessen
+- **Depends on:** —
+
+### Akzeptanzkriterien
+- [ ] Arzt/Physio-Termin wahrgenommen
+- [ ] Übungsplan steht
+- [ ] 4 Wochen 5×/Woche eingehalten'
+
+mkissue "LIFE-9 · Hüft-Mobilität" \
+  "--label P2 --label epic:bewegung" \
+'**Epic:** Recovery / Bewegung · eingeschränkte Hüftmobilität limitiert Lauf- und Schwimmtechnik und ist ein häufiger Rücken-Trigger.
+
+- **Anker:** direkt nach dem Aufstehen, als Teil von LIFE-2 (Morgen-Anker)
+- **MVP / DoD:** 5–10 Min Hüft-Dehn- und Mobilitätsroutine (90/90, Weltrekord-Stretch, Hip Circles), 6×/Woche, 3 Wochen
+- **Increment:** Routine auf 15 Min ausbauen; gezielt auf Beweglichkeits-Defizite aus LIFE-3 eingehen
+- **Depends on:** LIFE-2
+
+### Akzeptanzkriterien
+- [ ] Routine definiert (feste Übungsauswahl)
+- [ ] Anker an LIFE-2 gekoppelt
+- [ ] 3 Wochen 6×/Woche erreicht'
 
 echo "✅ Fertig. Issues siehst du mit: gh issue list"

@@ -103,6 +103,22 @@ Das ist deine "CI/CD & Observability" — Prozess, kein Willenskraft-Habit.
 - **Increment:** feste wiederkehrende Termine (z. B. monatlicher Spieleabend / Lauftreff)
 - **Depends on:** —
 
+### LIFE-8 · Schulter-Rehab  `P1`
+- **Epic:** Recovery / Gesundheit
+- **Begründung:** Unbehandelte Schulterprobleme blockieren langfristig das Training (LIFE-3) und erhöhen das Verletzungsrisiko. Rehab läuft parallel zum Rest, erfordert aber Konsequenz — kein einmaliges "kurz hinschauen".
+- **Anker:** Direkt nach dem Morgen-Bewegungs-Anker (LIFE-2) oder als eigenständiger Abend-Slot
+- **MVP / DoD:** Arzt/Physio aufsuchen + verschriebene Übungen 5×/Woche, 4 Wochen am Stück
+- **Increment:** Eigenständige Routine ohne Physio-Erinnerung weiterführen; Fortschritt alle 4 Wochen reassessen
+- **Depends on:** —
+
+### LIFE-9 · Hüft-Mobilität  `P2`
+- **Epic:** Recovery / Bewegung
+- **Begründung:** Eingeschränkte Hüftmobilität limitiert Lauf- und Schwimmtechnik und ist ein häufiger Rücken-Trigger. Kleine tägliche Dosis schlägt seltenere lange Sessions.
+- **Anker:** Direkt nach dem Aufstehen, als Teil von LIFE-2 (Morgen-Bewegungs-Anker)
+- **MVP / DoD:** 5–10 Min Hüft-Dehn- und Mobilitätsroutine (z. B. 90/90, Weltrekord-Stretch, Hip Circles), 6×/Woche, 3 Wochen
+- **Increment:** Routine auf 15 Min ausbauen; gezielt auf Beweglichkeits-Defizite aus LIFE-3 eingehen
+- **Depends on:** LIFE-2
+
 ---
 
 ## ✅ Maintenance / Prod
@@ -128,6 +144,10 @@ LIFE-1 (Schlaf) ◄── KEYSTONE, alles hängt dran
         └──► LIFE-6 (Karriere-Lernen)
 
 LIFE-7 (Sozial) ─── unabhängig, jederzeit ziehbar
+LIFE-8 (Schulter-Rehab) ─── unabhängig, parallel ziehbar
+        │
+LIFE-2 (Morgen-Anker)
+        └──► LIFE-9 (Hüft-Mobilität)
 ```
 
 ---

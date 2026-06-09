@@ -104,8 +104,8 @@ Das ist deine "CI/CD & Observability" — Prozess, kein Willenskraft-Habit.
 - **Epic:** Recovery / Gesundheit
 - **Begründung:** Unbehandelte Schulterprobleme blockieren langfristig das Training (LIFE-3) und erhöhen das Verletzungsrisiko. Rehab läuft parallel zum Rest, erfordert aber Konsequenz — kein einmaliges "kurz hinschauen".
 - **Anker:** Direkt nach dem Morgen-Bewegungs-Anker (LIFE-2) oder als eigenständiger Abend-Slot
-- **MVP / DoD:** Arzt/Physio aufsuchen + verschriebene Übungen 5×/Woche, 4 Wochen am Stück
-- **Increment:** Eigenständige Routine ohne Physio-Erinnerung weiterführen; Fortschritt alle 4 Wochen reassessen
+- **MVP / DoD:** Eigene Physio-Übungen 5×/Woche, 4 Wochen am Stück — wenn keine Verbesserung, Arzt aufsuchen
+- **Increment:** Eigenständige Routine festigen; alle 4 Wochen reassessen ob Arzt nötig
 - **Depends on:** —
 
 ### LIFE-9 · Hüft-Mobilität  `P2`

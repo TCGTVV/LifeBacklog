@@ -28,7 +28,7 @@
 
 ### Nächster Schritt
 
-LIFE-1 läuft — heute Abend 22:30 ersten Anker setzen. LIFE-0 formal schließen sobald erster Sonntags-Review stattgefunden hat. LIFE-8 (Schulter): Physio-Termin buchen.
+LIFE-1 läuft — heute Abend 22:30 ersten Anker setzen. LIFE-0 formal schließen sobald erster Sonntags-Review stattgefunden hat. LIFE-8 (Schulter): erstmal selbst mit eigenen Physio-Übungen beobachten — Arzt nur wenn keine Verbesserung.
 
 ---
 

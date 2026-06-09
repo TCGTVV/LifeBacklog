@@ -40,6 +40,10 @@ Danach in der GitHub-Oberfläche: **Projects → New project → Board**, Spalte
 `Backlog / In Progress / Maintenance` anlegen, Issues reinziehen, und auf
 "In Progress" das WIP-Limit auf **1** setzen.
 
+## 🗺️ Abhängigkeits-Graph
+
+→ [`BACKLOG.md` — Abhängigkeits-Graph](./BACKLOG.md#abhängigkeits-graph-reihenfolge)
+
 ## 🗓️ Workflow
 
 1. **Sonntag-Review** (`LIFE-0`): aktuelles Ticket prüfen, `never miss twice` checken.

@@ -26,6 +26,8 @@ mklabel "epic:input"       "1D76DB" "Lesen / Input"
 mklabel "epic:karriere"    "1D76DB" "Skill / Karriere"
 mklabel "epic:beziehungen" "1D76DB" "Beziehungen"
 mklabel "epic:gesundheit"  "1D76DB" "Gesundheit / Rehab"
+mklabel "epic:mindset"     "1D76DB" "Mental / Mindset"
+mklabel "epic:partnerschaft" "1D76DB" "Liebesbeziehung"
 
 echo "🎫 Issues anlegen…"
 mkissue() {
@@ -177,5 +179,31 @@ mkissue "LIFE-9 · Hüft-Mobilität" \
 - [ ] Routine definiert (feste Übungsauswahl)
 - [ ] Anker an LIFE-2 gekoppelt
 - [ ] 3 Wochen 6×/Woche erreicht'
+
+mkissue "LIFE-10 · Positives Selbstgespräch" \
+  "--label P2 --label epic:mindset" \
+'**Epic:** Mental / Mindset · wie du innerlich mit dir redest, färbt alles andere.
+
+- **Anker:** direkt nach dem Aufstehen, als Teil von LIFE-2 (Morgen-Anker)
+- **MVP / DoD:** 1 bewusster positiver Gedanke / Satz an sich selbst pro Tag, 6×/Woche, 3 Wochen
+- **Increment:** Abend-Reflexion ergänzen ("Was lief heute gut?") → koppelt an LIFE-5
+- **Depends on:** LIFE-1, LIFE-2
+
+### Akzeptanzkriterien
+- [ ] Anker an LIFE-2 gekoppelt
+- [ ] 3 Wochen 6×/Woche erreicht'
+
+mkissue "LIFE-11 · Liebesbeziehung pflegen" \
+  "--label P1 --label epic:partnerschaft" \
+'**Epic:** Beziehungen · romantische Beziehungen brauchen aktive Pflege — Cadence statt Stimmung.
+
+- **Anker:** wöchentlicher fester Slot + tägliche kleine Geste (Nachricht, Lob, Dankbarkeit)
+- **MVP / DoD:** 1 Quality-Time-Slot/Woche + täglich 1 kleine Geste, 4 Wochen
+- **Increment:** gemeinsame Rituale etablieren (Abendessen ohne Handy, monatliches Date)
+- **Depends on:** —
+
+### Akzeptanzkriterien
+- [ ] Wöchentlicher Slot im Kalender
+- [ ] 4 Wochen eingehalten'
 
 echo "✅ Fertig. Issues siehst du mit: gh issue list"

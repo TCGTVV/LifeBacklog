@@ -108,6 +108,22 @@ Das ist deine "CI/CD & Observability" — Prozess, kein Willenskraft-Habit.
 - **Increment:** Eigenständige Routine festigen; alle 4 Wochen reassessen ob Arzt nötig
 - **Depends on:** —
 
+### LIFE-10 · Positives Selbstgespräch  `P2`
+- **Epic:** Mental / Mindset
+- **Begründung:** Wie du innerlich mit dir redest, färbt alles andere — Motivation, Resilienz, Beziehungen. Kleine tägliche Dosis schlägt sporadische "Motivationsschübe".
+- **Anker:** Direkt nach dem Aufstehen, als Teil von LIFE-2 (Morgen-Anker) — 1–2 Sätze laut oder im Kopf
+- **MVP / DoD:** 1 bewusster positiver Gedanke / Satz an sich selbst pro Tag, 6×/Woche, 3 Wochen
+- **Increment:** Abend-Reflexion ergänzen ("Was lief heute gut?") → koppelt an LIFE-5 (Lesen)
+- **Depends on:** LIFE-1, LIFE-2
+
+### LIFE-11 · Liebesbeziehung pflegen  `P1`
+- **Epic:** Beziehungen
+- **Begründung:** Romantische Beziehungen brauchen aktive Pflege — sie degenerieren still, wenn man sie "nebenbei laufen lässt". Cadence statt Stimmung, wie bei LIFE-7.
+- **Anker:** Wöchentlicher fester Slot + tägliche kleine Geste (Nachricht, Lob, Dankbarkeit)
+- **MVP / DoD:** 1 bewusster Quality-Time-Slot/Woche + täglich 1 kleine Geste, 4 Wochen
+- **Increment:** gemeinsame Rituale etablieren (z. B. gemeinsames Abendessen ohne Handy, monatliches Date)
+- **Depends on:** —
+
 ### LIFE-9 · Hüft-Mobilität  `P2`
 - **Epic:** Recovery / Bewegung
 - **Begründung:** Eingeschränkte Hüftmobilität limitiert Lauf- und Schwimmtechnik und ist ein häufiger Rücken-Trigger. Kleine tägliche Dosis schlägt seltenere lange Sessions.
@@ -143,9 +159,11 @@ LIFE-1 (Schlaf) ◄── KEYSTONE, alles hängt dran
 
 LIFE-7 (Sozial) ─── unabhängig, jederzeit ziehbar
 LIFE-8 (Schulter-Rehab) ─── unabhängig, parallel ziehbar
+LIFE-11 (Liebesbeziehung) ─── unabhängig, jederzeit ziehbar
         │
 LIFE-2 (Morgen-Anker)
-        └──► LIFE-9 (Hüft-Mobilität)
+        ├──► LIFE-9 (Hüft-Mobilität)
+        └──► LIFE-10 (Positives Selbstgespräch)
 ```
 
 ---

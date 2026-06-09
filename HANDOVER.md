@@ -32,6 +32,28 @@ LIFE-1 läuft — heute Abend 22:30 ersten Anker setzen. LIFE-0 formal schließe
 
 ---
 
+## 2026-06-09 — LIFE-10 und LIFE-11 hinzugefügt
+
+### Was passierte
+
+- LIFE-10 (Positives Selbstgespräch, P2) und LIFE-11 (Liebesbeziehung pflegen, P1) in BACKLOG.md, setup-issues.sh und GitHub angelegt, ins Board eingetragen.
+- Freundschaften pflegen ist bereits durch LIFE-7 abgedeckt — kein separates Ticket nötig.
+
+### Aktueller Kontext
+
+- LIFE-1 läuft seit heute Abend (erster Anker 22:30).
+- LIFE-11 wurde als P1 eingestuft — Liebesbeziehungen brauchen aktive Pflege, unabhängig vom Rest des Systems.
+
+### Gegencheck
+
+- Durchgeführt: nein — neue Tickets, inhaltlich straightforward.
+
+### Nächster Schritt
+
+LIFE-1 durchhalten. Nächster Review: Sonntag.
+
+---
+
 ## 2026-06-08 — Setup: Serena, LIFE-8, LIFE-9, Agent-Workflow
 
 ### Was passierte

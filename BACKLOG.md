@@ -28,7 +28,7 @@
 Das ist deine "CI/CD & Observability" — Prozess, kein Willenskraft-Habit.
 
 ### LIFE-0 · Wöchentlicher Review aufsetzen  `infra` `P0`
-- **Anker:** Sonntag, mit dem Abendkaffee
+- **Anker:** Sonntag, Abends vor dem Lesen
 - **DoD:** 10-Min-Review steht als wiederkehrender Termin im Kalender
 - **Inhalt:** aktuelles Ticket checken (lief es?), `never miss twice` prüfen, ggf. nächstes Ticket ziehen
 
@@ -123,7 +123,8 @@ Das ist deine "CI/CD & Observability" — Prozess, kein Willenskraft-Habit.
 > Hierher wandert jedes Ticket, das seine DoD erreicht hat. Läuft autonom,
 > wird nur im wöchentlichen Review überwacht. `never miss twice` gilt weiter.
 
-*(noch leer — füllt sich, sobald LIFE-1 shippt)*
+### LIFE-00 · Tracking  `infra` `P1` `✅ 2026-06-09`
+- **Tool:** Streaks (iOS) — LIFE-1 als einziges aktives Habit, 5 von 7, Reminder 22:15
 
 ---
 

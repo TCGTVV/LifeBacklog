@@ -8,6 +8,30 @@
 
 ---
 
+## 2026-06-09 — LIFE-00 shipped: Streaks eingerichtet, Board live
+
+### Was passierte
+
+- GitHub Project Board angelegt (https://github.com/users/TCGTVV/projects/1): Spalten Backlog / In Progress / Maintenance, alle Issues eingetragen und korrekt zugeordnet.
+- LIFE-0 in Apple Kalender als wiederkehrender Sonntags-Termin hinterlegt.
+- LIFE-00: Streaks (iOS) als Tracker eingerichtet — LIFE-1 als einziges Habit, Ziel 5 von 7, Reminder 22:15. Issue geschlossen, nach Maintenance verschoben.
+
+### Aktueller Kontext
+
+- **In Progress:** LIFE-1 (Schlaffenster) — Anker 22:30, Streaks trackt ab heute.
+- LIFE-0 (Sonntags-Review) läuft parallel als Infra, noch nicht formal geschlossen (erster Review steht noch aus).
+- Schulter (LIFE-8) ist weiterhin offen und unabhängig — kein Physio-Termin bisher erwähnt.
+
+### Gegencheck
+
+- Durchgeführt: nein — Änderungen trivial (Issue schließen, BACKLOG.md Eintrag).
+
+### Nächster Schritt
+
+LIFE-1 läuft — heute Abend 22:30 ersten Anker setzen. LIFE-0 formal schließen sobald erster Sonntags-Review stattgefunden hat. LIFE-8 (Schulter): Physio-Termin buchen.
+
+---
+
 ## 2026-06-08 — Setup: Serena, LIFE-8, LIFE-9, Agent-Workflow
 
 ### Was passierte

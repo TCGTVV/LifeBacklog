@@ -15,7 +15,8 @@
 - LIFE-1 (Schlaffenster) war bereits am 2026-07-02 vom User direkt auf GitHub geschlossen worden (DoD erreicht: 5/7 Tage Licht aus bis 23:00, 3 Wochen in Folge) — Docs (BACKLOG.md, HANDOVER.md) und Board-Spalte hinkten hinterher.
 - Nachgezogen: Board-Item LIFE-1 → Spalte "Maintenance", BACKLOG.md/README.md entsprechend aktualisiert (Ticket nach "Maintenance/Prod" verschoben, Abhängigkeitsgraph angepasst).
 - Nächstes Ticket laut WIP-Limit=1 mit User abgestimmt: **LIFE-2 · Morgen-Bewegungs-Anker** gezogen (statt LIFE-4/LIFE-8/LIFE-11, die ebenfalls P1 und teils unabhängig gewesen wären). Board-Item LIFE-2 → Spalte "In Progress", BACKLOG.md aktualisiert.
-- User möchte konkret eine Ganzkörper-Stretch/Mobility-Routine (~10 Min) als Anleitung. Recherchiert (Ready State / Kelly Starrett, BuiltLean — reißerische "Studien"-Zahlen einer SEO-Seite verworfen) und als 9-Stationen-Ablauf (~1 Min je Station, dynamisch → tiefer) ins GitHub-Ticket #4 sowie BACKLOG.md eingetragen.
+- User möchte konkret eine Ganzkörper-Stretch/Mobility-Routine (~10 Min) als Anleitung. Recherchiert (Ready State / Kelly Starrett, BuiltLean — reißerische "Studien"-Zahlen einer SEO-Seite verworfen) und als 9-Stationen-Ablauf (~1 Min je Station, dynamisch → tiefer) ins GitHub-Ticket #4 sowie BACKLOG.md eingetragen, je Station um einen kurzen Ausführungssatz ergänzt.
+- Repo gehärtet: Branch-Protection auf `main` (PR-Pflicht, kein Force-Push, kein Löschen). `enforce_admins: false`, damit der User als Repo-Admin weiter direkt pushen/mergen kann. Da er einziger Collaborator ist, können fremde Nutzer ohnehin nur forken + PR stellen.
 
 ### Aktueller Kontext
 

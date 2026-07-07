@@ -8,6 +8,30 @@
 
 ---
 
+## 2026-07-07 — LIFE-1 in Prod, LIFE-2 gezogen
+
+### Was passierte
+
+- LIFE-1 (Schlaffenster) war bereits am 2026-07-02 vom User direkt auf GitHub geschlossen worden (DoD erreicht: 5/7 Tage Licht aus bis 23:00, 3 Wochen in Folge) — Docs (BACKLOG.md, HANDOVER.md) und Board-Spalte hinkten hinterher.
+- Nachgezogen: Board-Item LIFE-1 → Spalte "Maintenance", BACKLOG.md/README.md entsprechend aktualisiert (Ticket nach "Maintenance/Prod" verschoben, Abhängigkeitsgraph angepasst).
+- Nächstes Ticket laut WIP-Limit=1 mit User abgestimmt: **LIFE-2 · Morgen-Bewegungs-Anker** gezogen (statt LIFE-4/LIFE-8/LIFE-11, die ebenfalls P1 und teils unabhängig gewesen wären). Board-Item LIFE-2 → Spalte "In Progress", BACKLOG.md aktualisiert.
+
+### Aktueller Kontext
+
+- **In Progress:** LIFE-2 (Morgen-Bewegungs-Anker) — Anker: direkt nach dem Aufstehen, vor dem Kaffee. MVP: 5–10 Min Bewegung, 6×/Woche, 3 Wochen.
+- LIFE-1 läuft jetzt autonom in Prod; Increment (feste Aufstehzeit am WE, Schlaffenster 7,5–8h) steht noch offen, aber zählt nicht mehr gegen WIP.
+- Lücke bemerkt: zwischen 2026-06-09 und 2026-07-02 gab es keine Session/HANDOVER-Einträge — der User hat LIFE-1 eigenständig durchgezogen und das Ticket ohne Agent-Hilfe geschlossen. Gut möglich, dass sowas öfter passiert; beim nächsten Session-Start lohnt sich ein kurzer Soll/Ist-Abgleich zwischen HANDOVER.md und dem tatsächlichen GitHub-Issue-Status, falls längere Zeit vergangen ist.
+
+### Gegencheck
+
+- Durchgeführt: nein — reine Status-Nachführung (Ticket war vom User bereits inhaltlich entschieden), keine neue Priorisierung oder Struktur geändert.
+
+### Nächster Schritt
+
+LIFE-2 durchhalten: 5–10 Min Bewegung direkt nach dem Aufstehen, 6×/Woche, 3 Wochen. Tracking in Streaks ergänzen (aktuell trackt Streaks nur LIFE-1/Schlaf-Nachfolger — ggf. zweites Habit anlegen). Nächster Sonntags-Review prüft ersten Lauf.
+
+---
+
 ## 2026-06-09 — LIFE-00 shipped: Streaks eingerichtet, Board live
 
 ### Was passierte

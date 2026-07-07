@@ -48,4 +48,4 @@ Danach in der GitHub-Oberfläche: **Projects → New project → Board**, Spalte
 
 1. **Sonntag-Review** (`LIFE-0`): aktuelles Ticket prüfen, `never miss twice` checken.
 2. Läuft das Ticket in Prod? → nächstes aus dem Backlog nach "In Progress" ziehen.
-3. Start-Ticket: **`LIFE-1` (Schlaf)** — der Keystone, an dem fast alles hängt.
+3. Start-Ticket: ~~`LIFE-1` (Schlaf)~~ ✅ Prod (2026-07-02) → aktuell **`LIFE-2` (Morgen-Bewegungs-Anker)** in Progress.

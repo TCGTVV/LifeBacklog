@@ -40,26 +40,17 @@ Das ist deine "CI/CD & Observability" — Prozess, kein Willenskraft-Habit.
 
 ## 🚀 In Progress (WIP-Limit: 1)
 
-### LIFE-1 · Schlaffenster fixieren  `P0` `KEYSTONE` `← START HIER`
-- **Epic:** Recovery / Schlaf
-- **Begründung:** Blockt fast alles andere. Schlaf entscheidet über Recovery, Laune und ob der Morgensport überhaupt stattfindet. Ohne dieses Ticket scheitern die nachgelagerten.
-- **Anker:** 22:30 — Handy verlässt das Schlafzimmer
-- **MVP / DoD:** Licht aus bis 23:00 an **5 von 7** Tagen, **3 Wochen** in Folge
-- **Increment:** feste Aufstehzeit auch am Wochenende → Schlaffenster auf 7,5–8 h stabilisieren
-- **Depends on:** —
-- **Blocks:** LIFE-2, LIFE-4
-
----
-
-## 📋 Backlog (priorisiert, gezogen sobald LIFE-1 in Prod ist)
-
-### LIFE-2 · Morgen-Bewegungs-Anker  `P1`
+### LIFE-2 · Morgen-Bewegungs-Anker  `P1` `← START HIER`
 - **Epic:** Bewegung
 - **Begründung:** Klein und täglich — das ist die *Identitäts-Routine* ("ich bewege mich morgens"), **getrennt** von deinem echten Training. Genau hier liegt deine Falle: "6 Tage hart, jeden Morgen" als Startversprechen führt zu Übertraining → Abbruch.
 - **Anker:** Direkt nach dem Aufstehen, vor dem Kaffee
 - **MVP / DoD:** 5–10 Min Bewegung (Mobility / kurzer Spaziergang / Plank), 6×/Woche, 3 Wochen
 - **Increment:** ausbauen, aber Volumen kommt über LIFE-3, nicht hier
 - **Depends on:** LIFE-1
+
+---
+
+## 📋 Backlog (priorisiert, gezogen sobald LIFE-2 in Prod ist)
 
 ### LIFE-3 · Trainingsplan mit echten Ruhetagen  `P2`
 - **Epic:** Bewegung
@@ -142,6 +133,11 @@ Das ist deine "CI/CD & Observability" — Prozess, kein Willenskraft-Habit.
 ### LIFE-00 · Tracking  `infra` `P1` `✅ 2026-06-09`
 - **Tool:** Streaks (iOS) — LIFE-1 als einziges aktives Habit, 5 von 7, Reminder 22:15
 
+### LIFE-1 · Schlaffenster fixieren  `P0` `KEYSTONE` `✅ 2026-07-02`
+- **Epic:** Recovery / Schlaf
+- **DoD erreicht:** Licht aus bis 23:00 an 5/7 Tagen, 3 Wochen in Folge — Anker (22:30, Handy raus) läuft stabil
+- **Increment offen:** feste Aufstehzeit auch am Wochenende → Schlaffenster auf 7,5–8 h stabilisieren
+
 ---
 
 ## 🗺️ Abhängigkeits-Graph (Reihenfolge)
@@ -150,8 +146,8 @@ Das ist deine "CI/CD & Observability" — Prozess, kein Willenskraft-Habit.
 LIFE-0 (Review)   ─── läuft sofort, parallel
 LIFE-00 (Tracking) ─── läuft sofort, parallel
         │
-LIFE-1 (Schlaf) ◄── KEYSTONE, alles hängt dran
-        ├──► LIFE-2 (Morgen-Anker)
+LIFE-1 (Schlaf) ✅ Prod ── KEYSTONE, alles hängt dran
+        ├──► LIFE-2 (Morgen-Anker) ◄── IN PROGRESS
         │         └──► LIFE-3 (Trainingsplan)
         ├──► LIFE-4 (Ernährung)
         ├──► LIFE-5 (Lesen)

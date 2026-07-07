@@ -47,7 +47,16 @@ Das ist deine "CI/CD & Observability" — Prozess, kein Willenskraft-Habit.
 - **MVP / DoD:** 5–10 Min Bewegung (Mobility / kurzer Spaziergang / Plank), 6×/Woche, 3 Wochen
 - **Increment:** ausbauen, aber Volumen kommt über LIFE-3, nicht hier
 - **Depends on:** LIFE-1
-- **Routine:** Ganzkörper Stretch/Mobility, ~10 Min, Ablauf im [GitHub-Ticket](https://github.com/TCGTVV/LifeBacklog/issues/4) — Prinzip: erst dynamisch lockern, dann tiefer gehen (kalte Muskulatur nicht sofort lang statisch dehnen). Stationen: Katze-Kuh + Nacken → Handgelenk-/Knöchelkreisen → World's Greatest Stretch → Downward Dog ↔ Cobra → tiefe Kniebeuge wippen → stehende Seitneigung → Hüftkreise → Schulterkreisen + Arm-Stretch → Vorbeuge, Wirbel für Wirbel aufrollen.
+- **Routine:** Ganzkörper Stretch/Mobility, ~10 Min ([voller Ablauf im GitHub-Ticket](https://github.com/TCGTVV/LifeBacklog/issues/4)). Prinzip: erst dynamisch lockern, dann tiefer gehen — kalte Muskulatur nicht sofort lang statisch dehnen. Je ~1 Min pro Station:
+  1. Katze-Kuh + Nackenrollen — Vierfüßlerstand, Rücken rund/durchhängen im Atemrhythmus, Kopf dazwischen kreisen
+  2. Handgelenk- & Knöchelkreisen — je 10–15× in jede Richtung
+  3. World's Greatest Stretch (re+li) — aus dem Ausfallschritt Hand neben den Fuß, anderen Arm zur Decke drehen
+  4. Downward Dog ↔ Cobra Flow — Hüfte hoch (Fersen zum Boden) ↔ Becken tief, Brust hoch
+  5. Tiefe Kniebeuge, sanft wippen — Ellbogen gegen die Knie drücken, locker wippen
+  6. Stehende Seitneigung (re+li) — Arm über Kopf, Oberkörper zur Gegenseite neigen
+  7. Stehende Hüftkreise — große Beckenkreise in beide Richtungen
+  8. Schulterkreisen + Arm-über-Brust-Stretch — erst kreisen, dann Arm mit Gegenhand über Brust ziehen
+  9. Stehende Vorbeuge → Wirbel für Wirbel aufrollen — locker hängen lassen, langsam aufrichten, Kopf zuletzt
 
 ---
 

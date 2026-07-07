@@ -15,6 +15,7 @@
 - LIFE-1 (Schlaffenster) war bereits am 2026-07-02 vom User direkt auf GitHub geschlossen worden (DoD erreicht: 5/7 Tage Licht aus bis 23:00, 3 Wochen in Folge) — Docs (BACKLOG.md, HANDOVER.md) und Board-Spalte hinkten hinterher.
 - Nachgezogen: Board-Item LIFE-1 → Spalte "Maintenance", BACKLOG.md/README.md entsprechend aktualisiert (Ticket nach "Maintenance/Prod" verschoben, Abhängigkeitsgraph angepasst).
 - Nächstes Ticket laut WIP-Limit=1 mit User abgestimmt: **LIFE-2 · Morgen-Bewegungs-Anker** gezogen (statt LIFE-4/LIFE-8/LIFE-11, die ebenfalls P1 und teils unabhängig gewesen wären). Board-Item LIFE-2 → Spalte "In Progress", BACKLOG.md aktualisiert.
+- User möchte konkret eine Ganzkörper-Stretch/Mobility-Routine (~10 Min) als Anleitung. Recherchiert (Ready State / Kelly Starrett, BuiltLean — reißerische "Studien"-Zahlen einer SEO-Seite verworfen) und als 9-Stationen-Ablauf (~1 Min je Station, dynamisch → tiefer) ins GitHub-Ticket #4 sowie BACKLOG.md eingetragen.
 
 ### Aktueller Kontext
 
@@ -28,7 +29,7 @@
 
 ### Nächster Schritt
 
-LIFE-2 durchhalten: 5–10 Min Bewegung direkt nach dem Aufstehen, 6×/Woche, 3 Wochen. Tracking in Streaks ergänzen (aktuell trackt Streaks nur LIFE-1/Schlaf-Nachfolger — ggf. zweites Habit anlegen). Nächster Sonntags-Review prüft ersten Lauf.
+LIFE-2 mit der neuen Routine starten: 5–10 Min Ganzkörper-Stretch/Mobility direkt nach dem Aufstehen, 6×/Woche, 3 Wochen (Ablauf siehe Ticket #4 / BACKLOG.md). Tracking in Streaks ergänzen (aktuell trackt Streaks nur LIFE-1/Schlaf-Nachfolger — ggf. zweites Habit anlegen). Nächster Sonntags-Review prüft ersten Lauf.
 
 ---
 

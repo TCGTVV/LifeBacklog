@@ -47,6 +47,7 @@ Das ist deine "CI/CD & Observability" — Prozess, kein Willenskraft-Habit.
 - **MVP / DoD:** 5–10 Min Bewegung (Mobility / kurzer Spaziergang / Plank), 6×/Woche, 3 Wochen
 - **Increment:** ausbauen, aber Volumen kommt über LIFE-3, nicht hier
 - **Depends on:** LIFE-1
+- **Routine:** Ganzkörper Stretch/Mobility, ~10 Min, Ablauf im [GitHub-Ticket](https://github.com/TCGTVV/LifeBacklog/issues/4) — Prinzip: erst dynamisch lockern, dann tiefer gehen (kalte Muskulatur nicht sofort lang statisch dehnen). Stationen: Katze-Kuh + Nacken → Handgelenk-/Knöchelkreisen → World's Greatest Stretch → Downward Dog ↔ Cobra → tiefe Kniebeuge wippen → stehende Seitneigung → Hüftkreise → Schulterkreisen + Arm-Stretch → Vorbeuge, Wirbel für Wirbel aufrollen.
 
 ---
 

@@ -28,6 +28,7 @@ mklabel "epic:beziehungen" "1D76DB" "Beziehungen"
 mklabel "epic:gesundheit"  "1D76DB" "Gesundheit / Rehab"
 mklabel "epic:mindset"     "1D76DB" "Mental / Mindset"
 mklabel "epic:partnerschaft" "1D76DB" "Liebesbeziehung"
+mklabel "epic:kognition"    "1D76DB" "Gehirn / kognitive Gesundheit"
 
 echo "🎫 Issues anlegen…"
 mkissue() {
@@ -205,5 +206,20 @@ mkissue "LIFE-11 · Liebesbeziehung pflegen" \
 ### Akzeptanzkriterien
 - [ ] Wöchentlicher Slot im Kalender
 - [ ] 4 Wochen eingehalten'
+
+mkissue "LIFE-12 · Gehirnjogging (Kognitions-Training)" \
+  "--label P2 --label epic:kognition" \
+'**Epic:** Kognition / Prävention · Demenzprävention. Lancet Commission 2024: ~45% der Demenzfälle potenziell vermeidbar über 14 modifizierbare Risikofaktoren — kognitives Training schließt die Lücke, die LIFE-1/3/7/11 nicht abdecken. Stärkste Einzel-Evidenz: ACTIVE-Studie (RCT, 20 Jahre Follow-up) — Speed-of-Processing-Training ("Double Decision" in BrainHQ) senkte mit Booster-Sessions das Demenzrisiko um 25%. Gedächtnis-/Schlussfolgerungs-Training zeigten diesen Effekt NICHT — die Übungsart ist entscheidend.
+
+- **Anker:** Mittagspause, vor dem Essen (nicht danach — postprandiale Müdigkeit passt schlecht zu einer Reaktions-/Aufmerksamkeitsübung)
+- **MVP / DoD:** Tag 1: BrainHQ-Account/Trial einrichten. Ab dann: Übung "Double Decision", 10 Min, 4×/Woche, 3 Wochen
+- **Lernplan:** Tag 1 Setup (Account) → Wochen 1–3 MVP-Dosis → Wochen 4–8 auf ACTIVE-Studien-Dosis hochskalieren (~20 Min, 4–5×/Woche, kumuliert ~10h) → ab Woche 9 Booster-Blöcke alle 6–12 Monate statt Dauerbetrieb, optional zweite Aktivität (Sprache/Instrument/Tanzen) ergänzen
+- **Ressourcen:** BrainHQ (1. Wahl, RCT-Evidenz), Lumosity (schwache Evidenz, nicht empfohlen), Elevate (Ergänzung), Duolingo / Simply Piano / Tanzkurs (für späteres Increment)
+- **Depends on:** LIFE-1
+
+### Akzeptanzkriterien
+- [ ] BrainHQ-Account eingerichtet
+- [ ] Anker steht
+- [ ] 3 Wochen 4×/Woche erreicht'
 
 echo "✅ Fertig. Issues siehst du mit: gh issue list"

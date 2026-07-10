@@ -133,6 +133,25 @@ Das ist deine "CI/CD & Observability" — Prozess, kein Willenskraft-Habit.
 - **Increment:** Routine auf 15 Min ausbauen; gezielt auf Beweglichkeits-Defizite aus LIFE-3 eingehen
 - **Depends on:** LIFE-2
 
+### LIFE-12 · Gehirnjogging (Kognitions-Training)  `P2`
+- **Epic:** Kognition / Prävention
+- **Begründung:** Demenzprävention. Die Lancet-Commission 2024 beziffert ~45 % der Demenzfälle als potenziell vermeidbar über 14 modifizierbare Risikofaktoren (u. a. Bewegung, Soziales, Bildung, Gehör, Blutdruck) — die meisten davon deckt LifeBacklog bereits ab (LIFE-1 Schlaf, LIFE-3 Bewegung, LIFE-7/LIFE-11 Sozial). Gezieltes kognitives Training schließt die Lücke. Stärkste Einzel-Evidenz: die ACTIVE-Studie (RCT, n≈2.800, 20 Jahre Follow-up) — Speed-of-Processing-Training (heute exklusiv als Übung "Double Decision" in BrainHQ) senkte mit Booster-Sessions das Demenzrisiko um 25 %. Gedächtnis- und Schlussfolgerungs-Training aus derselben Studie zeigten diesen Effekt **nicht** — die Übungsart ist also entscheidend, nicht "irgendein" Gehirnjogging. Klassische Apps wie Lumosity haben dagegen schwache Evidenz für reale Transfer-Effekte (Lumos Labs zahlte 2016 eine FTC-Strafe wegen irreführender Werbung zu kognitiven Nutzen).
+- **Anker:** In der Mittagspause, vor dem Essen (nicht danach — postprandiale Müdigkeit passt schlecht zu einer Reaktions-/Aufmerksamkeitsübung)
+- **MVP / DoD:** Tag 1: BrainHQ-Account/Trial einrichten. Ab dann: Übung "Double Decision" (Speed of Processing), 10 Min, 4×/Woche, 3 Wochen
+- **Lernplan:**
+  0. **Tag 1 (Setup):** BrainHQ-Account/kostenlose Testphase einrichten — bewusst als eigener Schritt, weil Account+ggf. Bezahlschranke sonst den MVP-Start verzögern.
+  1. **Wochen 1–3 (MVP):** Double Decision, 10 Min, 4×/Woche in der Mittagspause — Muster etablieren, nicht auf Studien-Dosis optimieren.
+  2. **Wochen 4–8 (Increment 1):** Auf ACTIVE-Studien-Dosis hochskalieren — Sessiondauer auf ~20 Min, 4–5×/Woche, Ziel kumuliert ~10 Trainingsstunden.
+  3. **Ab Woche 9 (Increment 2 — Erhalt statt Dauerbetrieb):** Booster-Struktur analog zur Studie: alle 6–12 Monate ein mehrwöchiger Booster-Block statt permanentem Training. In den Pausen dazwischen optional eine zweite, eigenständig evidenzbasierte Aktivität aufnehmen (siehe Ressourcen) — koppelt idealerweise an LIFE-7 (Sozial), da Aktivitäten wie Tanzen kognitiv, körperlich und sozial zugleich wirken.
+- **Ressourcen / Apps (recherchiert):**
+  - **BrainHQ (Posit Science)** — 1. Wahl. Einzige App mit direkter RCT-Evidenz für reduziertes Demenzrisiko (ACTIVE-Studie), >200 Peer-Review-Studien. Web + iOS/Android, Abo-Modell, einzelne Übungen antestbar.
+  - **Lumosity** — polierteste UX, aber schwache Transfer-Evidenz und FTC-Vorgeschichte — nicht als Hauptwerkzeug empfohlen.
+  - **Elevate** — Fokus auf praktische Skills (Sprache, Rechnen, Kommunikation) — geeignet als Ergänzung, nicht als Ersatz für Double Decision.
+  - **Duolingo** (für Increment 2) — Sprachenlernen hat eigenständige Evidenz für kognitive Reserve (Bilingualismus verzögert Demenz-Onset um ~4 Jahre).
+  - **Simply Piano / Yousician** (für Increment 2) — Instrument lernen zeigt in Kohortenstudien ~36 % geringeres Demenzrisiko bei Musikern.
+  - **Tanzkurs** (für Increment 2, nicht-App) — stärkste Einzel-Assoziation in Langzeit-Kohortenstudien (NEJM 2003: −76 % Risiko über 21 Jahre), kombiniert kognitiv + körperlich + sozial.
+- **Depends on:** LIFE-1
+
 ---
 
 ## ✅ Maintenance / Prod
@@ -161,7 +180,8 @@ LIFE-1 (Schlaf) ✅ Prod ── KEYSTONE, alles hängt dran
         │         └──► LIFE-3 (Trainingsplan)
         ├──► LIFE-4 (Ernährung)
         ├──► LIFE-5 (Lesen)
-        └──► LIFE-6 (Karriere-Lernen)
+        ├──► LIFE-6 (Karriere-Lernen)
+        └──► LIFE-12 (Gehirnjogging)
 
 LIFE-7 (Sozial) ─── unabhängig, jederzeit ziehbar
 LIFE-8 (Schulter-Rehab) ─── unabhängig, parallel ziehbar

@@ -8,6 +8,38 @@
 
 ---
 
+## 2026-07-10 — LIFE-12 (Gehirnjogging) neu ins Backlog aufgenommen
+
+### Was passierte
+
+- User wollte ein neues Ticket für Gehirnjogging/Demenzprävention, inkl. Recherche zum besten Training und zu Apps/Ressourcen.
+- Recherchiert: Lancet-Commission-2024-Report (14 modifizierbare Demenz-Risikofaktoren, ~45% potenziell vermeidbar), ACTIVE-Studie (RCT, n≈2.800, 20 Jahre Follow-up) — Speed-of-Processing-Training ("Double Decision" in BrainHQ) senkt mit Booster-Sessions das Demenzrisiko um 25%, während Gedächtnis-/Schlussfolgerungstraining aus derselben Studie keinen Effekt zeigten. Außerdem App-Landschaft verglichen (BrainHQ vs. Lumosity [schwache Evidenz, FTC-Bußgeld 2016] vs. Elevate) sowie Nicht-App-Alternativen mit eigenständiger Evidenz (Sprache lernen, Instrument, Tanzen).
+- **LIFE-12 · Gehirnjogging (Kognitions-Training)** `P2` angelegt: Epic „Kognition / Prävention" (neues Label `epic:kognition`), Anker Mittagspause vor dem Essen, MVP BrainHQ/Double Decision 10 Min 4×/Woche 3 Wochen, 3-Phasen-Lernplan (MVP → Studien-Dosis hochskalieren → Booster-Erhalt), Depends on: LIFE-1. Eingetragen in BACKLOG.md, setup-issues.sh und als GitHub Issue [#14](https://github.com/TCGTVV/LifeBacklog/issues/14) (Label `epic:kognition` neu angelegt). Abhängigkeitsgraph aktualisiert (Zweig unter LIFE-1, wie LIFE-4/5/6).
+- Anker-Zeitpunkt vorab mit User abgestimmt (Mittagspause bevorzugt gegenüber "nach LIFE-2" oder "vor LIFE-5").
+- Board-Item konnte nicht automatisch in die GitHub-Project-Spalte "Backlog" gezogen werden — dem `gh`-Token fehlt der Scope `read:project`/`project`. **User muss Issue #14 manuell ins Board ziehen** (`gh auth refresh -s project` würde den Scope nachrüsten, dann ginge es auch automatisiert).
+
+### Aktueller Kontext
+
+- **In Progress bleibt unverändert:** LIFE-2 (Morgen-Bewegungs-Anker) — LIFE-12 wurde nur ins Backlog aufgenommen, nicht gezogen (WIP-Limit=1 respektiert).
+- User ist an strukturierter Prävention über den Lancet-Rahmen interessiert — die meisten der 14 Risikofaktoren sind über bestehende Tickets abgedeckt (Schlaf/LIFE-1, Bewegung/LIFE-3, Sozial/LIFE-7+11); LIFE-12 schließt gezielt die kognitive Lücke.
+
+### Gegencheck
+
+- **Durchgeführt: ja**, durch zweiten Agent (general-purpose, unabhängig vom implementierenden Agent).
+- **Befunde:**
+  - *Kritisch:* Anker "direkt nach dem Essen" kollidiert physiologisch mit einer Reaktions-/Aufmerksamkeitsübung (postprandiale Müdigkeit) → **behoben**: Anker auf "vor dem Essen" geändert (BACKLOG.md, setup-issues.sh, GitHub Issue).
+  - *Kritisch:* MVP/DoD nannte BrainHQ-Account-Einrichtung (Abo/Bezahlschranke) nicht explizit als Schritt, obwohl das eine reale Startbarriere ist → **behoben**: expliziter "Tag 1: Account/Trial einrichten"-Schritt ergänzt, als eigenes Akzeptanzkriterium aufgenommen.
+  - *Sollte angepasst werden:* MVP-Dauer "10–15 Min" war die anspruchsvollste MVP-Einheit im Vergleich zu anderen Tickets (LIFE-2/9: 5–10 Min) → **behoben**: auf fixe 10 Min reduziert.
+  - *Sollte angepasst werden:* Ticket ist deutlich ausführlicher als der sonstige Stil (Lernplan + 6 Ressourcen) → **bewusst nicht geändert**, da User explizit einen Lernplan und eine App-/Ressourcen-Recherche angefordert hatte (vergleichbar mit dem ausführlichen Routine-Text bei LIFE-2).
+  - *Nice-to-have:* Priorität P2 vs. stärkere Einzel-Evidenz (RCT, 25%) als andere P2-Tickets → als bewusste Entscheidung bewertet (Fernziel ohne akuten Leidensdruck), nicht geändert.
+- Abhängigkeitsgraph und Formatkonsistenz BACKLOG.md ↔ setup-issues.sh wurden vom Zweitagenten als korrekt bestätigt.
+
+### Nächster Schritt
+
+Issue #14 manuell ins GitHub-Board (Spalte "Backlog") ziehen. LIFE-2 weiterlaufen lassen bis DoD erreicht (3 Wochen 6×/Woche); LIFE-12 wird erst nach WIP-Regel gezogen, wenn ein Platz frei wird — nicht vorher starten, auch wenn die Recherche schon vorliegt.
+
+---
+
 ## 2026-07-07 — LIFE-1 in Prod, LIFE-2 gezogen
 
 ### Was passierte

@@ -16,7 +16,7 @@
 - Recherchiert: Lancet-Commission-2024-Report (14 modifizierbare Demenz-Risikofaktoren, ~45% potenziell vermeidbar), ACTIVE-Studie (RCT, n≈2.800, 20 Jahre Follow-up) — Speed-of-Processing-Training ("Double Decision" in BrainHQ) senkt mit Booster-Sessions das Demenzrisiko um 25%, während Gedächtnis-/Schlussfolgerungstraining aus derselben Studie keinen Effekt zeigten. Außerdem App-Landschaft verglichen (BrainHQ vs. Lumosity [schwache Evidenz, FTC-Bußgeld 2016] vs. Elevate) sowie Nicht-App-Alternativen mit eigenständiger Evidenz (Sprache lernen, Instrument, Tanzen).
 - **LIFE-12 · Gehirnjogging (Kognitions-Training)** `P2` angelegt: Epic „Kognition / Prävention" (neues Label `epic:kognition`), Anker Mittagspause vor dem Essen, MVP BrainHQ/Double Decision 10 Min 4×/Woche 3 Wochen, 3-Phasen-Lernplan (MVP → Studien-Dosis hochskalieren → Booster-Erhalt), Depends on: LIFE-1. Eingetragen in BACKLOG.md, setup-issues.sh und als GitHub Issue [#14](https://github.com/TCGTVV/LifeBacklog/issues/14) (Label `epic:kognition` neu angelegt). Abhängigkeitsgraph aktualisiert (Zweig unter LIFE-1, wie LIFE-4/5/6).
 - Anker-Zeitpunkt vorab mit User abgestimmt (Mittagspause bevorzugt gegenüber "nach LIFE-2" oder "vor LIFE-5").
-- Board-Item konnte nicht automatisch in die GitHub-Project-Spalte "Backlog" gezogen werden — dem `gh`-Token fehlt der Scope `read:project`/`project`. **User muss Issue #14 manuell ins Board ziehen** (`gh auth refresh -s project` würde den Scope nachrüsten, dann ginge es auch automatisiert).
+- Board-Item zunächst nicht automatisch ins Board zu bekommen — dem `gh`-Token fehlte der Scope `project`. User hat `gh auth refresh -s project` selbst ausgeführt; danach Issue #14 programmatisch als Board-Item angelegt und Status auf "Backlog" gesetzt.
 
 ### Aktueller Kontext
 
@@ -36,7 +36,7 @@
 
 ### Nächster Schritt
 
-Issue #14 manuell ins GitHub-Board (Spalte "Backlog") ziehen. LIFE-2 weiterlaufen lassen bis DoD erreicht (3 Wochen 6×/Woche); LIFE-12 wird erst nach WIP-Regel gezogen, wenn ein Platz frei wird — nicht vorher starten, auch wenn die Recherche schon vorliegt.
+LIFE-2 weiterlaufen lassen bis DoD erreicht (3 Wochen 6×/Woche); LIFE-12 wird erst nach WIP-Regel gezogen, wenn ein Platz frei wird — nicht vorher starten, auch wenn die Recherche schon vorliegt.
 
 ---
 
